@@ -1,0 +1,115 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contact{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #ffffff;
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    
+
+    
+}
+
+
+
+
+#form-element{
+     
+    background-color: #1D232C;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+    
+
+
+    
+    
+    
+}
+
+#form-element div{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input,textarea{
+       width: 100%;
+      border-radius: 4px;
+      background-color: #1D232C;
+      color: whitesmoke;
+      border: none;
+      background: transparent;
+      outline: none;    
+      border-bottom: 1px solid 	#778899;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 20px;
+      gap: 30px;
+      margin-left: 20px;
+       
+
+
+}
+.form-title{
+    margin-bottom: 30px;
+    font-size: 30px;
+    margin-left: -5px;
+
+}
+ 
+
+ #tag-name{
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+
+
+ }
+
+ #Message{
+      margin-right: -10px;  
+      margin-top: 10px;
+      font-weight: 600;
+      font-size: 20px;
+ }
+
+
+.btn{
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #4A90E2 ;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.btn:hover{
+    background-color: #357ABD;
+}
+
+
+ 
+ 

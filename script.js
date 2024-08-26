@@ -7,3 +7,7 @@ function openBar(){
 function closeBar(){
     side_navbar.style.left = "-60%";
 }
+
+
+
+

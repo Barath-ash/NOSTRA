@@ -175,6 +175,59 @@ body{
     padding-bottom: 10px;
 }
 
+
+
+
+.product-section{
+    margin-top: 30px;
+}
+
+.product-search{
+    padding-top: 100px;
+    width: 80%;
+    border: solid black 1px ;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: auto;
+    
+}
+
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.product-search input:focus{
+    outline: none;
+}
+
+.products{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+   
+}
+
+.products-box{
+
+    text-align: center;
+    flex-basis: 20%;
+}
+.products-box img{
+    border-radius: 10px;
+}
+
+
+
+
+
 @media screen and (max-width:600px) {
 
     .navbar-menu-toggle{
